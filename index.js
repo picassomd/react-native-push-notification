@@ -346,6 +346,7 @@ Notifications._onNotification = function(data, isFromBackground = null) {
         alert: data.getAlert(),
         sound: data.getSound(),
         fireDate: data._fireDate,
+        action: data.getAction(),
         finish: (res) => data.finish(res)
       });
     } else {
