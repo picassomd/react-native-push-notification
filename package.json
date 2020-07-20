@@ -24,7 +24,7 @@
     "url": "git+ssh://git@github.com:zo0r/react-native-push-notification.git"
   },
   "dependencies": {
-    "@react-native-community/push-notification-ios": "^1.2.2"
+    "@react-native-community/push-notification-ios": "git+https://github.com/picassomd/push-notification-ios.git#97488f037ace96b0a2d2fc80e67ae4228f319582"
   },
   "peerDependencies": {
     "react-native": ">=0.33"
